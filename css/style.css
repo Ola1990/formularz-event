@@ -1,0 +1,24 @@
+body {
+    background-color: orange;
+}
+form {
+    background-color: #fff;
+    width: 500px;
+    padding: 40px;
+    border-top: 15px solid #133260;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+}
+input, select, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+input[type="submit"] {
+    width: 150px;
+    margin-top: 20px;
+    background-color: #133260;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
