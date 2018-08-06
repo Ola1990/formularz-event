@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <form action="https://formspree.io/aleksandra.gozlinska@wp.pl" method="POST">
+     <input type="text" name="fname" placeholder="Imię" required><br>  
+     <input type="text" name="sname" placeholder="Nazwisko" required><br>  
+     <input type="email" name="_replyto" placeholder="Email" required><br>
+     
+     <label for="ticket">Wybierz rodzaj biletu:</label><br> 
+        <select name="ticket" id="ticket">
+            <option value="normalny">Normalny</option>
+            <option value="premium">Premium</option>
+            <option value="VIP">VIP</option>
+        </select>
+        <p>Menu wegańskie:</p>  
+       <label><input type="radio" name="vegan-menu" value="tak">Tak</label>
+      <label> <input type="radio" name="vegan-menu" value="nie" checked>Nie</label><br>
+      
+      <label for="message">Dodatkowe uwagi:</label><br>
+      <textarea name="message" id="message"></textarea><br>
+      
+      <label><input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie...</label><br>
+      <input type="submit" value="Zapisz się">
+   </form>
+    <script src="js/main.js"></script>
+</body>
+</html>
